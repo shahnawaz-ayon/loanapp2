@@ -29,7 +29,10 @@ class About extends Component {
       <div>
       <Nav variant="tabs" defaultActiveKey="/home">
   <Nav.Item>
-    <Nav.Link href="/">Home</Nav.Link>
+    <Nav.Link href="/">Login</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link  href="/Home">Home</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link  href="/Admin">Admin</Nav.Link>
@@ -43,14 +46,10 @@ class About extends Component {
   <Nav.Item>
     <Nav.Link  href="/Register">Register</Nav.Link>
   </Nav.Item>
-  <Nav.Item>
-    <Nav.Link  href="/Login">Login</Nav.Link>
-  </Nav.Item>
-   <Nav.Item>
+     <Nav.Item>
     <Nav.Link  href="/StyleSet">Style Set</Nav.Link>
   </Nav.Item>
-  
-</Nav>
+  </Nav>
 </div>
 <div>
       <h1>Admin Panel</h1>

@@ -20,8 +20,7 @@ import Login from './pages/Login.jsx';
     <Router>
       
       <div>
-
-        <Route exact path="/" component={Login}/>
+      <Route exact path="/" component={Login}/>
         <Route path="/Admin" component={Admin}/>
         <Route path="/StyleSet" component={StyleSet}/>
         <Route path="/MoneyManage" component={MoneyManage}/>
@@ -37,7 +36,7 @@ import Login from './pages/Login.jsx';
       </div>
       <div className="mb-3">
       <center>
-    
+        <Styled/>
      <h5>  Copyright:Banking App</h5>
      </center> 
      </div>

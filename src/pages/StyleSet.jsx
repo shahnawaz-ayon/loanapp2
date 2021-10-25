@@ -9,9 +9,12 @@ class StyleSet extends Component {
     return (
       
       <div>
-        <Nav variant="tabs" defaultActiveKey="/home">
+<Nav variant="tabs" defaultActiveKey="/home">
   <Nav.Item>
-    <Nav.Link href="/">Home</Nav.Link>
+    <Nav.Link href="/">Login</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link  href="/Home">Home</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link  href="/Admin">Admin</Nav.Link>
@@ -25,14 +28,10 @@ class StyleSet extends Component {
   <Nav.Item>
     <Nav.Link  href="/Register">Register</Nav.Link>
   </Nav.Item>
-  <Nav.Item>
-    <Nav.Link  href="/Login">Login</Nav.Link>
-  </Nav.Item>
    <Nav.Item>
     <Nav.Link  href="/StyleSet">Style Set</Nav.Link>
   </Nav.Item>
-  
-</Nav>
+  </Nav>
 <Container>
       <h1>Customize Style</h1>
       

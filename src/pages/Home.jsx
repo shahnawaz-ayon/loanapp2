@@ -11,7 +11,10 @@ class Home extends Component {
       <div>
         <Nav variant="tabs" defaultActiveKey="/home">
   <Nav.Item>
-    <Nav.Link href="/">Home</Nav.Link>
+    <Nav.Link href="/">Login</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link  href="/Home">Home</Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link  href="/Admin">Admin</Nav.Link>
@@ -25,14 +28,10 @@ class Home extends Component {
   <Nav.Item>
     <Nav.Link  href="/Register">Register</Nav.Link>
   </Nav.Item>
-  <Nav.Item>
-    <Nav.Link  href="/Login">Login</Nav.Link>
-  </Nav.Item>
    <Nav.Item>
     <Nav.Link  href="/StyleSet">Style Set</Nav.Link>
   </Nav.Item>
-  
-</Nav>
+  </Nav>
 <div className="container">
  
      <h2>Welcome To Digital Finance Management</h2>
@@ -41,9 +40,11 @@ class Home extends Component {
 
 <Container>
   
-  <h1>Hello, world!</h1>
-  Use the HDFC Bank Fixed Deposit calculator to find out how much do you earn through a Fixed Deposit
-Want to know how much you can earn on fixed deposits? Here is a fixed deposits calculator by HDFC Bank that lets you identify the maturity amount and the interest earned when you open a Fixed Deposit.
+  <h1>Hello Customer!</h1>
+  Use Our Deposit calculator to find out how much do you earn through a
+   Fixed Deposit. Want to know how much you can earn on fixed deposits? 
+   Here is a fixed deposits calculator that lets you identify the maturity 
+   amount and the interest earned when you open a Deposit account.
 <div></div>
      <p><Button variant="primary" href="./Register">Register</Button>  {" "}
      <Button variant="primary" href="./Login">Login</Button>   </p>
